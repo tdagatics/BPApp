@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "sqlite3.h"
 
 @interface AppDelegate ()
 

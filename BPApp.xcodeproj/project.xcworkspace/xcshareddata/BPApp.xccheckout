@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0E035A8A-D56E-48D5-BC6E-1B221DD701CA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BPApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>619DC3C79289139E57E4E86ABC00DCB05EB5387C</key>
+		<string>https://github.com/tdagatics/BPApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BPApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>619DC3C79289139E57E4E86ABC00DCB05EB5387C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tdagatics/BPApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>619DC3C79289139E57E4E86ABC00DCB05EB5387C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>619DC3C79289139E57E4E86ABC00DCB05EB5387C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BPApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

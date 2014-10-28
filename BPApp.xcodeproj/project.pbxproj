@@ -14,7 +14,7 @@
 		43006A841A003AEE00A54EB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43006A831A003AEE00A54EB2 /* Images.xcassets */; };
 		43006A871A003AEE00A54EB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43006A851A003AEE00A54EB2 /* LaunchScreen.xib */; };
 		43006A931A003AEE00A54EB2 /* BPAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006A921A003AEE00A54EB2 /* BPAppTests.m */; };
-		43006A9E1A003B4400A54EB2 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43006A9D1A003B4400A54EB2 /* FlipsideViewController.m */; };
+		43006AA01A0041F900A54EB2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43006A9F1A0041F900A54EB2 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,7 @@
 		43006A8C1A003AEE00A54EB2 /* BPAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43006A911A003AEE00A54EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43006A921A003AEE00A54EB2 /* BPAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppTests.m; sourceTree = "<group>"; };
-		43006A9C1A003B4400A54EB2 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		43006A9D1A003B4400A54EB2 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		43006A9F1A0041F900A54EB2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43006AA01A0041F900A54EB2 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +66,7 @@
 		43006A6A1A003AEE00A54EB2 = {
 			isa = PBXGroup;
 			children = (
+				43006A9F1A0041F900A54EB2 /* libsqlite3.dylib */,
 				43006A751A003AEE00A54EB2 /* BPApp */,
 				43006A8F1A003AEE00A54EB2 /* BPAppTests */,
 				43006A741A003AEE00A54EB2 /* Products */,
@@ -84,8 +85,6 @@
 		43006A751A003AEE00A54EB2 /* BPApp */ = {
 			isa = PBXGroup;
 			children = (
-				43006A9C1A003B4400A54EB2 /* FlipsideViewController.h */,
-				43006A9D1A003B4400A54EB2 /* FlipsideViewController.m */,
 				43006A7A1A003AEE00A54EB2 /* AppDelegate.h */,
 				43006A7B1A003AEE00A54EB2 /* AppDelegate.m */,
 				43006A7D1A003AEE00A54EB2 /* MainViewController.h */,
@@ -226,7 +225,6 @@
 			files = (
 				43006A7F1A003AEE00A54EB2 /* MainViewController.m in Sources */,
 				43006A7C1A003AEE00A54EB2 /* AppDelegate.m in Sources */,
-				43006A9E1A003B4400A54EB2 /* FlipsideViewController.m in Sources */,
 				43006A791A003AEE00A54EB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
