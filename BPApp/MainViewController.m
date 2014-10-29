@@ -16,6 +16,10 @@
 @implementation MainViewController
 
 //file path to db
+
+- (IBAction)saveButton:(id)sender {
+}
+
 -(NSString *)filePath {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     return [[paths objectAtIndex:0] stringByAppendingString:@"bp.sql"];
@@ -54,8 +58,5 @@
   //  }
 //}
 
-- (IBAction)saveEntry:(id)sender {
-    
-}
 
 @end

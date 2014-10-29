@@ -44,14 +44,11 @@
                                 <rect key="frame" x="16" y="199" width="374" height="65"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Save"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="199" width="343" height="67"/>
                                 </variation>
                                 <connections>
-                                    <action selector="saveEntry:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rBO-uO-N46"/>
+                                    <action selector="saveButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ELD-EZ-saq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,7 +68,7 @@
                     <connections>
                         <outlet property="diastolicPressure" destination="lwO-QE-o7I" id="d7X-Hz-KWi"/>
                         <outlet property="howAreYouFeeling" destination="7A3-nM-0w0" id="FWp-Nc-B4R"/>
-                        <outlet property="saveButton" destination="TtW-Va-yZv" id="kmn-0q-zJr"/>
+                        <outlet property="saveButton" destination="kh9-bI-dsS" id="9u2-wd-Mts"/>
                         <outlet property="systolicPressure" destination="jA6-QR-1ZE" id="fAQ-p3-eBs"/>
                     </connections>
                 </viewController>

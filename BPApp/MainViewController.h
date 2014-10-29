@@ -20,7 +20,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *diastolicPressure;
 
 @property (weak, nonatomic) IBOutlet UITextField *howAreYouFeeling;
-- (IBAction)saveEntry:(id)sender;
+- (IBAction)saveButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UIView *saveButton;
+
 
 -(NSString *) filePath;
 -(void)openDB;
